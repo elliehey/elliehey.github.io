@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Rajdhani');
+body {
+	background-image: url("yoga1.jpg");
+	background-size: cover;
+}
+h1 {color: #59788f;
+	text-align: center;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 50px;
+}
+#slogan {font-size: 22px;
+	font-weight: bold;
+	color: #ffffff;
+	text-align:center;
+	font-family: 'Merriweather', serif;
+}
+h3 {color: #59788f;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 30px;
+}
+p {color: #ffffff;
+	font-family: 'Merriweather', serif;
+}
+.name {font-weight: bold;
+}
