@@ -6,7 +6,9 @@ nav a {
 	color: black;
 	margin: 1.8em;
 	display: inline-block;
-	hover: gray;
+}
+nav a:hover {
+	color:#59788f;
 }
 body {
 	font-family: 'Merriweather', serif;
@@ -41,29 +43,37 @@ margin: 0;
 	background-size: cover;
 }
 #services {
-	padding: 20px;
+	width: 1200px;
+	margin: auto;
 }
-#movement {
-    border: 1px black solid;
-    padding: 20px;
+#services section {
+    /* border: 1px black solid; */
+    padding: 2em;
     float: left;
-    width: 30%;
-}
-#music {
-    border: 1px black solid;
-    padding: 20px;
-float: left;
-width: 30%;
-}
-
-#art {
-    border: 1px black solid;
-    padding: 20px;
-    float: left;
-    width: 30%;
+    width: 33.33%;
  }
- .pricing {clear: both;}
+ .pricing {/* clear: both; */width: 1200px;margin: auto;padding: 2em;}
+#services img {
+    width: 100%;
+}
 
+h2 {
+    margin-left: 2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    width: 24%;
+    float: left;
+    text-align: center;
+    padding: 2em 0;
+    margin: .5%;
+    color: #fff;
+    background: #59788f;
+}
  .clearfix:after {
     visibility: hidden;
     display: block;
