@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Rajdhani');
+
 * {margin:0;padding:0;box-sizing:border-box;}
 
+nav {
+  text-align: center;
+}
 nav a {	
 	text-decoration: none;
+  font-size:1.2em;
 	color: black;
 	margin: 1.8em;
 	display: inline-block;
@@ -18,12 +23,17 @@ body {
 .logo {
 	font-size:30px;
 	font-family: "Open Sans", sans-serif;
+text-align:center;
 }
+
 h1 {
 	color: #59788f;
 	text-align: center;
 	font-family: 'Rajdhani', sans-serif;
 	font-size: 50px;
+}
+#slogan {
+  padding-top:.5%;
 }
 h3 {
 	color: #59788f;
@@ -38,30 +48,33 @@ h3 {
 width: 100%;
 margin: 0;
 }
-#intro {
-	background-image: url("../images/yoga3.jpg");
-	background-size: cover;
-}
+
 #services {
 	width: 100%;
 	margin: auto;
 }
 #services section {
-    /* border: 1px black solid; */
+
     padding: 2em;
     float: left;
     width: 33.33%;
  }
- .pricing {/* clear: both; */width: 100%;margin: auto;padding: 2em;}
+ .pricing {width: 100%;
+  margin: auto;
+  padding: 2em;
+}
 #services img {
     width: 100%;
+
 }
 
 h2 {
     margin-left: 2rem;
 }
 .contact {
-width: 100%;margin: auto;padding: 3em;
+width: 100%;
+margin: auto;
+padding: 3em;
 text-align: center;
 }
 
@@ -86,16 +99,37 @@ li {
     clear: both;
     height: 0;
 }
-footer {text-align:center;}
-@media (max-width: 800px) {
-  .pricing {font-size:0.5em;
-  }
+footer {
+  text-align:center;
 }
-@media (max-width: 480px) {
-  #slogan {font-size: 2em;}
-  #services section {float: none;
-  	padding:.5em;}
-  p,li,img {display: none;}
-  
-    
+
+@media (max-width: 800px) 
+{
+  .pricing {
+    font-size:0.5em;
+  }
+  #slogan {font-size:2.5em;
+  }
+
+
+@media (max-width: 480px) 
+{
+  #slogan {
+    font-size: 2em;
+  }
+  #services section {
+    float: none;
+  	padding:0.5em;
+    width:auto;
+  }
+    .pricing {
+      padding:.5em;
+    }
+  .contact {
+    text-align:left;
+    padding:.5em;
+  }
+  p,li,img {
+    display: none;
+  } 
 }
