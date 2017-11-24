@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Rajdhani');
+
+* {margin:0;padding:0;box-sizing:border-box;}
+
+nav {
+  text-align: center;
+}
+nav a {	
+	text-decoration: none;
+  font-size:1.2em;
+	color: black;
+	margin: 1.8em;
+	display: inline-block;
+}
+nav a:hover {
+	color:#59788f;
+}
+body {
+	font-family: 'Merriweather', serif;
+	font-size:16px;
+	line-height:1.3;
+}
+.logo {
+	font-size:30px;
+	font-family: "Open Sans", sans-serif;
+text-align:center;
+}
+
+h1 {
+	color: #59788f;
+	text-align: center;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 50px;
+}
+#slogan {
+  padding-top:.5%;
+}
+h3 {
+	color: #59788f;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 30px;
+}
+.name {
+	font-weight: bold;
+}
+#inline {
+	display: block;
+width: 100%;
+margin: 0;
+}
+
+#services {
+	width: 100%;
+	margin: auto;
+}
+#services section {
+
+    padding: 2em;
+    float: left;
+    width: 33.33%;
+ }
+ #pricing {width: 1200;
+  margin: auto;
+  padding: 2em;
+  clear: both;
+}
+.services img {
+    width: 100%;
+
+}
+
+h2 {
+    margin-left: 2rem;
+}
+.contact {
+width: 100%;
+margin: auto;
+padding: 3em;
+text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    text-align: center;
+    padding: 2em 0;
+    margin: .5%;
+    color: #fff;
+    background: #59788f;
+    width: 24%;
+    float: left;
+}
+ .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+footer {
+  text-align:center;
+}
+
+@media (max-width: 800px) 
+{
+  .pricing {
+    font-size:0.5em;
+  }
+  #slogan {font-size:2.5em;
+  }
+
+
+@media (max-width: 480px) 
+{
+  #slogan {
+    font-size: 2em;
+  }
+  #services section {
+    float: none;
+  	padding:0.5em;
+    width:auto;
+  }
+    .pricing {
+      padding:.5em;
+    }
+  .contact {
+    text-align:left;
+    padding:.5em;
+  }
+  p,li,img {
+    display: none;
+  } 
+}
