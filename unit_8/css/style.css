@@ -59,11 +59,12 @@ margin: 0;
     float: left;
     width: 33.33%;
  }
- .pricing {width: 100%;
+ #pricing {width: 1200;
   margin: auto;
   padding: 2em;
+  clear: both;
 }
-#services img {
+.services img {
     width: 100%;
 
 }
@@ -83,13 +84,13 @@ ul {
 }
 
 li {
-    width: 24%;
-    float: left;
     text-align: center;
     padding: 2em 0;
     margin: .5%;
     color: #fff;
     background: #59788f;
+    width: 24%;
+    float: left;
 }
  .clearfix:after {
     visibility: hidden;
