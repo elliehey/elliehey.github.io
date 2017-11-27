@@ -59,12 +59,12 @@ margin: 0;
     float: left;
     width: 33.33%;
  }
- #pricing {width: 1200;
+ #pricing {width: 100%;
   margin: auto;
   padding: 2em;
-  clear: both;
+  clear:both;
 }
-.services img {
+.classes img {
     width: 100%;
 
 }
@@ -106,9 +106,7 @@ footer {
 
 @media (max-width: 800px) 
 {
-  .pricing {
-    font-size:0.5em;
-  }
+  
   #slogan {font-size:2.5em;
   }
 
@@ -123,14 +121,14 @@ footer {
   	padding:0.5em;
     width:auto;
   }
-    .pricing {
+    #pricing {
       padding:.5em;
     }
   .contact {
     text-align:left;
     padding:.5em;
   }
-  p,li,img {
+  img {
     display: none;
   } 
 }
