@@ -24,6 +24,7 @@ body {
 	font-size:30px;
 	font-family: "Open Sans", sans-serif;
 text-align:center;
+padding-top:1em;
 }
 
 h1 {
@@ -53,7 +54,7 @@ margin: 0;
 	width: 100%;
 	margin: auto;
 }
-#services section {
+.classes {
 
     padding: 2em;
     float: left;
@@ -116,11 +117,15 @@ footer {
   #slogan {
     font-size: 2em;
   }
-  #services section {
+  .classes {
     float: none;
   	padding:0.5em;
     width:auto;
+
   }
+ h2 {
+    margin-left: 3.5em;
+}
     #pricing {
       padding:.5em;
     }
@@ -131,4 +136,13 @@ footer {
   img {
     display: none;
   } 
+  nav a {margin:1em;
+  }
 }
+
+@media (max-width: 320px)
+{
+  #pricing{
+    font-size:.5em;
+  }
+} 
